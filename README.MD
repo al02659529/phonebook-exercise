@@ -9,9 +9,9 @@ It was created using REACT, CSS and JS.
 ### Back end
 Created using EXPRESS and Mongoose to connect to database
 
-##Database
+## Database
 This app is using MongoDB for storing data
 
-##Deployment 
+## Deployment 
 This app is deployed to the internet using heroku with the following link:
 https://fast-bastion-22017.herokuapp.com/

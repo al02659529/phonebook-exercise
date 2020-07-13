@@ -22,45 +22,6 @@ morgan.token('body', (req, res) =>{
     return JSON.stringify(req.body);
 })
 
-let records = {
-    "persons": [
-        {
-            "name": "Ada Lovelace",
-            "number": "39-44-5323523",
-            "id": 2
-        },
-        {
-            "name": "Dan Abramov",
-            "number": "12-43-234345",
-            "id": 3
-        },
-        {
-            "name": "Pancho Villa",
-            "number": 6674745541,
-            "id": 6
-        },
-        {
-            "name": "Carlos Rivera",
-            "number": 6671454123,
-            "id": 7
-        },
-        {
-            "name": "Ricardo Lopez",
-            "number": 6671772219,
-            "id": 9
-        },
-        {
-            "name": "DanielRo",
-            "number": 6671214450,
-            "id": 11
-        },
-        {
-            "name": "marioSsexo",
-            "number": 6671218810,
-            "id": 12
-        }
-    ]
-}
 // get all records - done
 app.get('/api/persons', (request, response) =>{
     PhoneBook.find({}).then(data =>{
